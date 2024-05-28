@@ -4,13 +4,37 @@ body {
     z-index: 0;
 }
 
-#header {
-    height: 25vh;
+.header {
+    height: 30vh;
+}
+#angled {
+    height: 30vh;
     clip-path: polygon(100% 0, 100% 38%, 53% 64%, 0 100%, 0 0);
     background-color: #5798ca;
     z-index: 1;
-    box-shadow: 13px 13px 15px rgb(0, 0, 0);
 }
-#header-shadow {
+#angled-shadow {
     filter: drop-shadow(-1px 2px 2px rgba(50, 50, 0, 0.5));
+}
+.top-image{
+    width: 400px;
+    box-shadow: 2px 2px 2px rgba(0, 0. 0, 0.5);
+    z-index: 2;
+}
+.imgdiv {
+    filter: drop-shadow(2px 3px 2px rgba(50, 50, 0, 0.5));
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    box-shadow: 2px 2px 2px rgba(0, 0. 0, 0.5);
+    z-index: 2;
+}
+
+#main-section {
+    height: 50vh;
+}
+
+#footer {
+    background-color: #5798ca;
+    height: 20vh;
 }
