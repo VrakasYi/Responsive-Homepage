@@ -87,7 +87,7 @@ body {
 }
 .screenshot {
     background-color: #ccc; /* Optional: Background color for screenshots */
-    height: 30vh; /* Adjust the height of the screenshot area */
+    height: 28vh; /* Adjust the height of the screenshot area */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,6 +96,7 @@ body {
 }
 .descriptionContainer {
     padding: 10px; /* Padding inside the description container */
+    height: 10vh;
 }
 .name {
     font-weight: bold;
