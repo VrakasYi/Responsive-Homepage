@@ -56,7 +56,48 @@ body {
     height: 100vh;
 }
 
+/* .work {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.item {
+    width: 30vh
+} */
+
 #footer {
     background-color: #57b1ca;
     height: 90vh;
+}
+
+
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 2fr));
+    gap: 20px; /* Adjust the gap between items as needed */
+    padding: 20px; /* Optional: Add padding around the grid */
+}
+.item {
+    background-color: #f0f0f0; /* Optional: Background color for items */
+    border: 1px solid #ddd; /* Optional: Border around items */
+    border-radius: 5px; /* Optional: Rounded corners */
+    overflow: hidden; /* Optional: Hide overflow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+.screenshot {
+    background-color: #ccc; /* Optional: Background color for screenshots */
+    height: 30vh; /* Adjust the height of the screenshot area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Optional: Font size for the placeholder text */
+    color: #333; /* Optional: Text color for the placeholder text */
+}
+.descriptionContainer {
+    padding: 10px; /* Padding inside the description container */
+}
+.name {
+    font-weight: bold;
+    margin-bottom: 5px; /* Space below the project name */
 }
