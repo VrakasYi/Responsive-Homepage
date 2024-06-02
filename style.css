@@ -136,7 +136,7 @@ h3 {
 @media (min-width: 501px) and (max-width: 1000px) {
     body {
         /* width: 100vh; */
-        height: 220vh;
+        height: 230vh;
     }
 
     .header {
@@ -160,9 +160,9 @@ h3 {
     .aboutimg {
         display: flex;
         flex-direction: row;
-        position: relative; /* Position the container relatively */
+        /* position: relative; /* Position the container relatively 
         top: -50%;
-        left: 6%;
+        left: 6%; */
         align-items: flex-start; /* Align items to the start (top) of the flex container */
         max-width: min-content;
     }
@@ -178,7 +178,21 @@ h3 {
             -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
     }
     
+    #main-section {
+        height: 130vh;
+        margin: 40px;
+    }
 
+    .screenshot {
+        height: 26vh;
+    }
+
+    .descriptionContainer {
+        height: 11vh;
+    }
+    .descriptionContainer > p {
+        font-size: 12px;
+    }
     .work {
         display: grid;
         grid-template-columns: auto auto;
