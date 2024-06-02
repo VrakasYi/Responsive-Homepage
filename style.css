@@ -14,7 +14,6 @@ h3 {
     background-color: #57b1ca;
     z-index: 1;
 }
-
 .top-image{
     height: 80vh;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
@@ -42,7 +41,16 @@ h3 {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
 }
-
+.icons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.icons > img {
+    width: 34px;
+    padding: 5px;
+}
 .about > p {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
@@ -51,9 +59,6 @@ h3 {
     height: 100vh;
     margin: 40px
 }
-
-
-
 .mywork {
     font-size: x-large;
 }
@@ -93,6 +98,9 @@ h3 {
 .name {
     font-weight: bold;
     margin-bottom: 5px; /* Space below the project name */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #footer {
     background-color: #57b1ca;
@@ -102,19 +110,104 @@ h3 {
     align-items: center;
     justify-content: space-around;
 }
-
 .contact-details{
     color: aliceblue;
     font-size: x-large;
 }
-
 .contact-details > h3 {
     font-size: xx-large;
 }
-
 .contact-details > p {
     font-family: 'Roboto', sans-serif;
 }
+.contact-details-icon > img {
+    width: 36px;
+    padding: 5px;
+}
+.name-icons > img {
+    width: 20px;
+    padding-right: 5px;
+}
 .footerimg {
     height: 80vh;
+}
+
+/* Media query for tablet */
+@media (min-width: 501px) and (max-width: 1000px) {
+    body {
+        /* width: 100vh; */
+        height: 220vh;
+    }
+
+    .header {
+        height: 60vh;
+    }
+    #angled {
+        height: 50vh;
+        /* width: 100vh; */
+    }
+    .top-image {
+        height: 30vh;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
+        -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
+        z-index: 2;
+        position: absolute; /* Position the image absolutely */
+        float: left; /* Float the image to the left */
+        margin-right: 20px; /* Add some margin to the right of the image for spacing */
+
+    }    
+
+    .aboutimg {
+        display: flex;
+        flex-direction: row;
+        position: relative; /* Position the container relatively */
+        top: -50%;
+        left: 6%;
+        align-items: flex-start; /* Align items to the start (top) of the flex container */
+        max-width: min-content;
+    }
+    
+    .about {
+        overflow: auto; /* or overflow: scroll; */
+        font-size: x-large;
+        background-color: aliceblue;
+        height: 40vh;
+        width: 45%;
+        padding: 25px;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
+            -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
+    }
+    
+
+    .work {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 20px; /* Adjust the gap between items as needed */
+        padding: 0px; /* Optional: Add padding around the grid */
+    }
+    .footerimg {
+        height: 40vh;
+    }
+}
+
+/* Media query for mobile */
+@media (max-width: 500px) {
+    body {
+        height: auto;
+    }
+    
+    .header {
+        height: 50vh;
+    }
+    
+    .about {
+        height: auto;
+        width: 90%; /* Adjusted width for mobile */
+    }
+
+    .work {
+        grid-template-columns: auto; /* Adjusted grid for mobile */
+        gap: 10px; /* Adjusted gap between items for mobile */
+    }
 }
