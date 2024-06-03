@@ -19,6 +19,9 @@ h3 {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
     z-index: 2;
+    position: absolute;
+    top: -18%;
+    left: -77%;
 }
 .imgdiv {
     z-index: 2;    
@@ -26,17 +29,20 @@ h3 {
 .aboutimg {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    /* position: absolute;
     top: 5%;
-    left: 7%;
+    left: 7%; */
     align-items: center;
 }
 .about {
-    overflow: auto; /* or overflow: scroll; */
+    overflow: visible;
+    position: absolute;
+    top: 14%;
+    right: 0%;
     font-size: x-large;
     background-color: aliceblue;
-    height: 40vh;
-    width: 45%;
+    height: 45vh;
+    width: 51%;
     padding: 25px;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
@@ -89,7 +95,7 @@ h3 {
 .descriptionContainer {
     overflow: auto; /* or overflow: scroll; */
     padding: 10px; /* Padding inside the description container */
-    height: 10vh;
+    height: 11vh;
 }
 .descriptionContainer > p {
     font-family: 'Roboto', sans-serif;
