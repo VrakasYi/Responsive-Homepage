@@ -161,7 +161,14 @@ h3 {
         float: left; /* Float the image to the left */
         margin-right: 20px; /* Add some margin to the right of the image for spacing */
 
-    }    
+    }
+    
+    .imgdiv {
+        float: left;
+        height: 22vh;
+        width: 17vh;
+        background: black;
+    }
 
     .aboutimg {
         display: flex;
@@ -178,7 +185,7 @@ h3 {
         font-size: x-large;
         background-color: aliceblue;
         height: 40vh;
-        width: 45%;
+        width: 45vw;
         padding: 25px;
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
             -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
