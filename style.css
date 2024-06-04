@@ -19,9 +19,9 @@ h3 {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
     z-index: 2;
-    position: absolute;
-    top: -120px;
-    left: -46vw;
+    /* position: absolute; */
+    top: 34px;
+    left: 3vw;
 }
 .imgdiv {
     z-index: 2;    
@@ -33,17 +33,23 @@ h3 {
     top: 5%;
     left: 7%; */
     align-items: center;
+    position: absolute;
+    top: 4vh;
+    padding: 0px 40px;
 }
 .about {
     overflow: visible;
-    position: absolute;
+    /* position: absolute; */
     top: 150px;
-    right: 0%;
+    /* right: 0%; */
+    left: 91vh;
     font-size: x-large;
     background-color: aliceblue;
     height: 45vh;
-    width: 48vw;
-    padding: 25px;
+    /* width: 48vw; */
+    padding: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
 }
@@ -141,7 +147,6 @@ h3 {
 /* Media query for tablet */
 @media (min-width: 501px) and (max-width: 1000px) {
     body {
-        /* width: 100vh; */
         height: 230vh;
     }
 
@@ -150,14 +155,12 @@ h3 {
     }
     #angled {
         height: 50vh;
-        /* width: 100vh; */
     }
     .top-image {
-        height: 38vh;
+        height: 39vh;
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
         -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
         z-index: 2;
-        /*position: absolute; /* Position the image absolutely */
         float: left; /* Float the image to the left */
         margin-right: 20px; /* Add some margin to the right of the image for spacing */
 
@@ -165,32 +168,37 @@ h3 {
     
     .imgdiv {
         float: left;
-        height: 22vh;
-        width: 17vh;
-        background: black;
+        height: 24vh;
+        /* width: 26vh; */
+        width: 310px;
+        background: aliceblue;
+        margin: 5px;
+
     }
 
     .aboutimg {
         display: flex;
         flex-direction: row;
-        /* position: relative; /* Position the container relatively 
-        top: -50%;
-        left: 6%; */
         align-items: flex-start; /* Align items to the start (top) of the flex container */
         max-width: min-content;
     }
     
+    .about > p {
+        font-size: 22px;
+
+    }
+
     .about {
-        overflow: auto; /* or overflow: scroll; */
         font-size: x-large;
         background-color: aliceblue;
         height: 40vh;
-        width: 65vw;
+        width: 76vw;
         padding: 25px;
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
             -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
         position: absolute;
-        top: 14vh;
+        top: 12vh;
+        left: 70px;
     }
     
     #main-section {
