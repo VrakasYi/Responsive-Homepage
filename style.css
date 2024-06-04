@@ -20,8 +20,8 @@ h3 {
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
     z-index: 2;
     position: absolute;
-    top: -18%;
-    left: -77%;
+    top: -120px;
+    left: -46vw;
 }
 .imgdiv {
     z-index: 2;    
@@ -37,12 +37,12 @@ h3 {
 .about {
     overflow: visible;
     position: absolute;
-    top: 14%;
+    top: 150px;
     right: 0%;
     font-size: x-large;
     background-color: aliceblue;
     height: 45vh;
-    width: 51%;
+    width: 48vw;
     padding: 25px;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
     -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
