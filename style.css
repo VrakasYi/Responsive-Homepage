@@ -243,6 +243,9 @@ h3 {
     .header {
         height: 50vh;
     }
+    #angled {
+        height: 60vh;
+    }
     .top-image {
         height: 50vh;
     }
@@ -257,5 +260,9 @@ h3 {
     .work {
         grid-template-columns: auto; /* Adjusted grid for mobile */
         gap: 10px; /* Adjusted gap between items for mobile */
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
     }
 }
