@@ -38,7 +38,7 @@ h3 {
     padding: 0px 40px;
 }
 .about {
-    overflow: visible;
+    overflow: auto;
     /* position: absolute; */
     top: 150px;
     /* right: 0%; */
@@ -184,8 +184,7 @@ h3 {
     }
     
     .about > p {
-        font-size: 22px;
-
+        font-size: 16px;
     }
 
     .about {
@@ -223,8 +222,15 @@ h3 {
         gap: 20px; /* Adjust the gap between items as needed */
         padding: 0px; /* Optional: Add padding around the grid */
     }
+    #footer {
+        padding: 0px 40px;
+        height: 62vh;
+    }
+    .contact-details {
+        font-size: medium;
+    }
     .footerimg {
-        height: 40vh;
+        height: 350px;
     }
 }
 
@@ -237,7 +243,12 @@ h3 {
     .header {
         height: 50vh;
     }
-    
+    .top-image {
+        height: 50vh;
+    }
+    .aboutimg {
+        flex-direction: column;
+    }
     .about {
         height: auto;
         width: 90%; /* Adjusted width for mobile */
