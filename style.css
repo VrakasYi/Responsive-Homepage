@@ -241,22 +241,28 @@ h3 {
     }
     
     .header {
-        height: 50vh;
+        height: 150vh;
     }
     #angled {
         height: 60vh;
     }
     .top-image {
-        height: 50vh;
+        height: 275px;
     }
     .aboutimg {
         flex-direction: column;
     }
     .about {
         height: auto;
-        width: 90%; /* Adjusted width for mobile */
+        width: 180px; /* Adjusted width for mobile */
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: none;
+        padding: 10px;
     }
-
+    #main-section {
+        height: 280vh;
+    }
+    
     .work {
         grid-template-columns: auto; /* Adjusted grid for mobile */
         gap: 10px; /* Adjusted gap between items for mobile */
@@ -264,5 +270,15 @@ h3 {
     #footer {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
+    .contact-details > p {
+        font-size: medium;
+    }
+    .contact-details {
+        padding: 0px 20px;
+    }
+    /* .footerimg {
+        /* width: 270px; 
+    } */
 }
