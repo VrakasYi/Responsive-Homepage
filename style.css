@@ -158,22 +158,28 @@ h3 {
     }
     .top-image {
         height: 39vh;
+        width: 39vh;
         box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3),
         -3px -3px 8px 0px rgba(0, 0, 0, 0.3);
         z-index: 2;
         float: left; /* Float the image to the left */
         margin-right: 20px; /* Add some margin to the right of the image for spacing */
-
+        /* visibility: hidden */
+        /* background-image: url(./pexels-michael-burrows-7129712-cropped2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 24vh; */
     }
     
     .imgdiv {
+        /* background-image: url(./pexels-michael-burrows-7129712-cropped2.jpg); */
+        /* background-position: center;
+        background-size: cover; */
+        height: 39vh;
         float: left;
-        height: 24vh;
-        /* width: 26vh; */
         width: 310px;
-        background: aliceblue;
+        /* background: aliceblue; */
         margin: 5px;
-
     }
 
     .aboutimg {
